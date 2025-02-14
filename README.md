@@ -16,7 +16,7 @@ O **Library System** é um projeto em Java desenvolvido para gerenciar bibliotec
 
 - **Java**: Linguagem de programação principal.
 - **SpringBoot**: Biblioteca de organização do Projeto.
-- **MySQL**: Banco de dados para armazenamento de informações.
+- **PostgreSQL**: Banco de dados para armazenamento de informações.
 - **JDBC**: Conexão com o banco de dados.
 - **Maven**: Gerenciamento de dependências e build do projeto.
 - **Git**: Controle de versão.
