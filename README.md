@@ -50,7 +50,6 @@ Abaixo está o diagrama UML que representa a estrutura do sistema:
 2. **Clone o Repositório**:
    ```bash
    git clone https://github.com/GuilhermexL/library-system.git
-   cd library-system
    ```
 
 3. **Configuração do Banco de Dados**:
@@ -61,17 +60,28 @@ Abaixo está o diagrama UML que representa a estrutura do sistema:
    ```bash
    mvn clean install
    mvn exec:java -Dexec.mainClass="com.librarysystem.Main"
-   ```
+   ``` 
+## **Metas do Projeto**  
 
-## Contribuição
+   **Fase 1 - Configuração Inicial**  
+- [x] Criar o projeto no **Spring Initializr**  
+- [x] Configurar o **PostgreSQL** como banco de dados  
+- [x] Definir a estrutura do projeto (MVC)  
 
-Contribuições são bem-vindas! Siga os passos abaixo:
+   **Fase 2 - Implementação das Funcionalidades**  
+- [x] Criar a entidade **Livro**  
+- [x] Implementar repositório JPA para persistência dos dados  
+- [x] Criar serviço para regras de negócio  
+- [x] Criar controlador REST para gerenciar livros  
 
-1. Faça um fork do projeto.
-2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`).
-3. Commit suas mudanças (`git commit -m 'Adicionando nova feature'`).
-4. Push para a branch (`git push origin feature/nova-feature`).
-5. Abra um Pull Request.
+   **Fase 3 - Melhorias e Validações**  
+- [ ] Adicionar validações nos dados (ex: título obrigatório)  
+- [ ] Implementar logs para monitoramento da aplicação  
+- [ ] Criar testes unitários para os serviços  
+
+   **Fase 4 - Integrações e Deploy**  
+- [ ] Criar documentação da API com **Swagger**  
+- [ ] Criar interface web para interação com os dados 
 
 ## Licença
 
@@ -79,4 +89,4 @@ Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICEN
 
 ---
 
-Desenvolvido por [Seu Nome] - [2025]
+Desenvolvido por Guilherme Santos, Klebson Amarante e Mateus Tomaz - [2025]
