@@ -63,23 +63,23 @@ Abaixo está o diagrama UML que representa a estrutura do sistema:
    ``` 
 ## **Metas do Projeto**  
 
-   **Fase 1 - Configuração Inicial**  
+**Fase 1 - Configuração Inicial**  
 - [x] Criar o projeto no **Spring Initializr**  
 - [x] Configurar o **PostgreSQL** como banco de dados  
 - [x] Definir a estrutura do projeto (MVC)  
 
-   **Fase 2 - Implementação das Funcionalidades**  
+**Fase 2 - Implementação das Funcionalidades**  
 - [x] Criar a entidade **Livro**  
 - [x] Implementar repositório JPA para persistência dos dados  
 - [x] Criar serviço para regras de negócio  
 - [x] Criar controlador REST para gerenciar livros  
 
-   **Fase 3 - Melhorias e Validações**  
+**Fase 3 - Melhorias e Validações**  
 - [ ] Adicionar validações nos dados (ex: título obrigatório)  
 - [ ] Implementar logs para monitoramento da aplicação  
 - [ ] Criar testes unitários para os serviços  
 
-   **Fase 4 - Integrações e Deploy**  
+**Fase 4 - Integrações e Deploy**  
 - [ ] Criar documentação da API com **Swagger**  
 - [ ] Criar interface web para interação com os dados 
 
@@ -89,4 +89,4 @@ Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICEN
 
 ---
 
-Desenvolvido por Guilherme Santos, Klebson Amarante e Mateus Tomaz - [2025]
+Desenvolvido por Guilherme Santos - [2025]
